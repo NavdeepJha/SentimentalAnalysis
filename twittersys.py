@@ -37,10 +37,10 @@ def clicked():
 
         def DownloadData(self):
             # authenticating
-            consumerKey = 'J0vuqc7HWbRyykdXlL9FqhZPD'
-            consumerSecret = 'tC2LkuieNUq1Flcth8FmpZTsn3GinQCCt40tym6d3eJytc3UhR'
-            accessToken = '364792889-Iq0PboYQAkWCUy6cnPZT6m9Ol6YeTKew4aX9vQOJ'
-            accessTokenSecret = 'nFj85l0E4ptD49PDjZuEsynZIa08JFc87r03UBdAoWuPl'
+            consumerKey = 'your consumer key'
+            consumerSecret = 'your consumer secret'
+            accessToken = 'your access token'
+            accessTokenSecret = 'your access token secret'
             auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
             auth.set_access_token(accessToken, accessTokenSecret)
             api = tweepy.API(auth)
